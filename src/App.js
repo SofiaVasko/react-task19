@@ -10,7 +10,7 @@ import NotFound from "./pages/NotFound";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/react-task19">
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route path="home" element={<Home />} />
