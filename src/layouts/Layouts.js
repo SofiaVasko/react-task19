@@ -4,7 +4,7 @@ const Layout = () => {
   return (
     <div>
       <nav className="nav">
-        <Link to="/">Home</Link>
+        <Link to="/react-task19">Home</Link>
         <Link to="/post">Post</Link>
         <Link to="/photos">Photos</Link>
         <Link to="/contacts">Contacts</Link>
