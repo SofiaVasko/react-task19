@@ -13,7 +13,7 @@ function App() {
       <BrowserRouter basename="/react-task19">
         <Routes>
           <Route path="/" element={<Layout />}>
-            <Route path="home" element={<Home />} />
+            <Route index element={<Home />} />
             <Route path="post" element={<Post />} />
             <Route path="photos" element={<Photos />} />
             <Route path="contacts" element={<Contacts />} />
